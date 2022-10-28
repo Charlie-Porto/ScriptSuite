@@ -1,0 +1,36 @@
+=========== documentation: core zsh functions ============
+
+*touchsh
+create_new_shellscript.sh ~~~~> VOID: creates .sh file
+  -> string: file name (note: must include .sh)
+coref_touchsh="/Users/charlieporto/realshit/shellscripts/core/./create_new_shellscript.sh"
+
+
+find_match_in_list.sh ~~~~> Int: 1 || 0
+  -> string: search item
+  -> array:  array being search
+coref_find_match_in_list="/Users/charlieporto/realshit/shellscripts/core/./find_match_in_list.sh"
+
+
+list_keys_in_map.sh ~~~~> VOID: prints keys of map
+  -> array map: map to be printed
+coref_list_map_keys="/Users/charlieporto/realshit/shellscripts/core/./list_keys_in_map.sh"
+
+
+get_value_by_key_in_list.sh ~~~~> String: corresponding map value
+  -> string: search key
+  -> array map: map being searched
+coref_get_value_by_list_key="/Users/charlieporto/realshit/shellscripts/core/./get_value_by_key_in_list.sh"
+
+
+* odoc
+open_documentation.sh ~~~~> VOID: opens a specific doc.txt file
+  -> string: search key
+coref_odoc="/Users/charlieporto/realshit/shellscripts/core/./open_documentation.sh"
+
+
+* coda
+open_abbreviated_file_in_vscode.sh ~~~~> VOID: opens an abbreviated file in vs code
+  -> string: file name
+coref_coda="/Users/charlieporto/realshit/shellscripts/core/./open_abbreviated_file_in_vscode.sh"
+

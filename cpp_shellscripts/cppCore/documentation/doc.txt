@@ -1,0 +1,16 @@
+========= documentation for cpp core =========
+
+get_path_of_file_in_project.sh ~~~~> String: file path
+  -> string enum: map key
+cpp_coref_get_path_of_project_file="/Users/charlieporto/realshit/shellscripts/cpp_shellscripts/cppCore/./get_path_of_file_in_project.sh"
+
+navigate_to_project_root.sh ~~~~> String: project root path
+  -> N/A
+cpp_coref_get_project_root="/Users/charlieporto/realshit/shellscripts/cpp_shellscripts/cppCore/./navigate_to_project_root.sh"
+
+
+[NOT CURRENTLY WORKING]
+* cdpr
+travel_to_project_root.sh ~~~~> VOID: travel to project root
+  -> N/A
+

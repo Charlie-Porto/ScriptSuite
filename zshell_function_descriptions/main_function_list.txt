@@ -1,0 +1,6 @@
+oif 								open cd in Finder
+getcpptemplate (templ)				move a cpp template to the cd
+movecpptemplate						manually move a cpp template
+compcpp (sourcefile, objectfile)	compile a cpp file
+touchcpp (newfile[omit .cpp], tags) make new cpp file
+

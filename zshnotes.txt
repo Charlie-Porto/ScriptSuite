@@ -1,0 +1,55 @@
+--------------------------loops-------------------------
+For loop standard form: for x in 1 2 3; do echo $x; done 
+
+While loop standard form:  while test …; do somecommand; done. 
+
+
+alternate form: 
+for ((i = 0; i < 42; i++)); do somecommand; 
+
+-------------------------if statement:-------------------------
+if [[ 1 -gt 0 ]]; then; echo 100; fi; 
+
+
+-------------------------globbing/wildscards--------------------------
+
+globbing: using wildcards to refer to multiple file roots 
+-> wildcards = globbing patterns
+
+Standard Wildcards:
+	*
+	?
+	[]
+	{}
+Regex:
+	.
+	\
+	.*
+	*
+	&
+	^
+	$
+	[]
+	|
+	[^]
+
+https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm
+
+
+useful commands:
+which <file> - show location of version of file in use (i.e., python3)
+where <file> - show locations of file
+
+
+
+secret books:
+(a) - run as command
+^^^ also eval
+
+
+-------------------------other resources--------------------------
+
+https://zsh.sourceforge.io/Doc/Release/Parameters.html
+
+
+LOOK UP: googling techniques (stop searching like an ape)

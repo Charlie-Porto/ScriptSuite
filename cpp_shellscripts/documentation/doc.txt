@@ -1,0 +1,14 @@
+======== high-level documentation: cpp shellscripts ========
+
+cppCore -> core functions
+cppPCE -> scripts specific to development of the PineconeEngine
+cppPackageManagerFiles -> (DEPRECATED) manage dependencies
+cppTextGeneration -> generate chunks of c++ text
+cppFileCreator -> create new .cpp or .hpp files of various types
+cppFileFetcher -> grab a file from another folder and move it to current cpp project		
+cppFastFileOpen -> open project files using shortcuts
+cppMakeSuite -> build a c++ project	
+cppNavigation -> quickly move to different place within a cpp project 
+cppTestSuite -> set up for testing within a cpp project
+create_new_cpp_project.sh -> create a new cpp project based on criteria provided
+
