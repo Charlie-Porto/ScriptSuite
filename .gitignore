@@ -34,7 +34,6 @@
 # Custom
 .DS_store
 .DS_Store?
-*.sh
 *.wav
 lib
 builds/*

@@ -1,0 +1,38 @@
+#!/bin/zsh
+ 
+###########################################################
+# creates ordinary cpp file
+#----------------------------------------------------
+# INPUT:
+# filename: string
+###########################################################
+
+input_array=("$@");
+
+# assign vars
+new_file_name="${input_array[1]}";
+full_file_name="${new_file_name}.hpp";
+define_header="${new_file_name}_hpp";
+
+# create file
+touch $full_file_name;
+
+# embellish file
+local put() {echo $1 >> $full_file_name}
+put "#ifndef $define_header"
+put "#define $define_header"
+put ""
+put "/*----------------------------------------------------------------|"
+put "--------------------- Module Description -------------------------|"
+put ""
+put "-----------------------------------------------------------------*/"
+put ""
+put ""
+put ""
+put ""
+put ""
+put "#endif /* $define_header */"
+
+
+# alert job is done
+echo "Successfully created new c++ file: $full_file_name";
